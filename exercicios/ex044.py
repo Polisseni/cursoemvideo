@@ -15,7 +15,7 @@ elif opção == 2:
 elif opção == 3:
     total = preço
     parcela = total/2
-    print(f'Sua compra será parcelada em 2x de R${total:.2f} SEM JUROS')
+    print(f'Sua compra será parcelada em 2x de R${parcela:.2f} SEM JUROS')
 elif opção == 4:
     total = preço + (preço * 20/100)
     totparc = int(input('Quantas parcelas deseja pagar?: '))

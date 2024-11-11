@@ -1,5 +1,5 @@
 num = int(input('Digite um número: '))
-#n = str(num)
+n = str(num)
 u = num // 1 % 10
 d = num // 10 % 10
 c = num // 100 % 10

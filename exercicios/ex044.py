@@ -1,4 +1,4 @@
-print('{:=^40}'.format(' LOJAS POLISSENI '))
+print(f'{" LOJAS POLISSENI ":=^40}')
 preço = float(input('Digite o preço das compras R$: '))
 print('''ESCOLHA UMA DAS OPÇõES DE PAGAMENTO:
 OPÇÃO [1] À VISTA NO DINHEIRO/CHEQUE

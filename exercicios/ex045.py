@@ -14,8 +14,8 @@ sleep(1)
 print('PO!!!!')
 sleep(1)
 print('-=' * 15)
-print(f'O computador escolheu {itens[computador]}'.upper())
-print(f'O jogador escolheu {itens[jogador]}'.upper())
+print(f'O COMPUTADOR ESCOLHEU {itens[computador]}')
+print(f'O JOGADOR ESCOLHEU {itens[computador]}')
 print('-=' * 15)
 if computador == 0:          #COMPUTADOR JOGOU PEDRA
     if jogador == 0:
@@ -42,5 +42,5 @@ elif computador == 2:        #COMPUTADOR JOGOU TESOURA
         print('\033[1;35mCOMPUTADOR VENCEU\033[m')
     elif jogador == 2:
         print('\033[1;34mEMPATE\033[m')
-    else:
+else:
         print('\033[4;31mOPÇÃO INVÁLIDA, TENTE NOVAMENTE\033[m')

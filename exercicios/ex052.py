@@ -10,3 +10,5 @@ for c in range (1, num + 1):
 print(f'\n\033[0;34mO número {num} foi dividido {total} vezes\033[m')
 if total == 2:
     print('\033[0;34mE por isso ele é PRIMO !!!\033[m')
+else:
+    print('\033[0;31mE por isso ele NÃO é PRIMO\033[m')
